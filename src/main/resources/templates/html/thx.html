@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>ありがとう</title>
+	<link th:href="@{/css/style.css}" rel="stylesheet">
+</head>
+<body id="thx">
+	<div class="thx_message">
+		<h1><span id="name" th:text="${name}"></span>さんパンフレット請求ありがとうございます！</h1>
+		<h1><span id="address" th:text="${address}"></span>に資料を送りました！</h1>
+	</div>
+</body>
+</html>
